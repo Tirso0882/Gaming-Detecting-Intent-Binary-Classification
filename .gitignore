@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# PyTorch
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+
+# Transformers
+.cache/
+cached_*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+output/
+models/
+logs/
+runs/
+wandb/
+
+# Large data files
+*.csv
+*.json
+*.jsonl
+*.tsv
+*.txt
+*.db
+*.sqlite
+*.hdf5
+*.pkl
+*.pickle
+
+# Exceptions - keep these files even if they match patterns above
+!requirements.txt
+!dataset_distribution.txt
+!output/best_model.pt
+!output/metrics.png
+!output/loss.png
+!output/confusion_matrix.png
+!output/test_metrics.txt 
