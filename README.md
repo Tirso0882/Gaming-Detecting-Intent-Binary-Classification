@@ -69,12 +69,12 @@ python -m src.main --data_path datasets/gaming_intent_dataset.csv --output_dir o
 
 To run the Gradio demo for interactive testing:
 ```bash
-python src/demo.py
+python -m src.demo
 ```
 
 To create a publicly shareable link:
 ```bash
-python src/demo.py --share
+python -m src.demo --share
 ```
 
 ## License
