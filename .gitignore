@@ -54,7 +54,7 @@ cached_*
 .DS_Store
 
 # Project specific
-output/
+.gradio/
 models/
 logs/
 runs/
@@ -71,6 +71,3 @@ wandb/
 *.hdf5
 *.pkl
 *.pickle
-
-# Folders
-.gradio/
