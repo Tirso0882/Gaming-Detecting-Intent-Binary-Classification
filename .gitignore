@@ -61,7 +61,6 @@ runs/
 wandb/
 
 # Large data files
-*.csv
 *.json
 *.jsonl
 *.tsv
