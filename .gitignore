@@ -72,13 +72,5 @@ wandb/
 *.pkl
 *.pickle
 
-# Exceptions - keep these files even if they match patterns above
-!requirements.txt
-!dataset_distribution.txt
-!output/best_model.pt
-!output/metrics.png
-!output/loss.png
-!output/confusion_matrix.png
-!output/test_metrics.txt 
-
+# Folders
 .gradio/
